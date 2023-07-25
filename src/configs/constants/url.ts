@@ -3,7 +3,7 @@ export const WEB_URL = {
   discord: 'http://bit.ly/3QACbOa',
   medium: 'https://medium.com/@Fellaz',
   telegram: 'https://t.me/official_fellaz',
-  gitbook: 'https://whitepaper.fellaz.xyz',
+  gitbook: 'https://fellaz.gitbook.io/whitepaper/',
 
   xclusive_launchpad: 'https://fellaz.launchpad.xclusive.market',
   binance_nft:
