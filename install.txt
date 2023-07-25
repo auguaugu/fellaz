@@ -1,0 +1,20 @@
+1. yarn install (npm install --global yarn)
+2. install dependency (프로젝트 폴더에서)
+    $ yarn
+
+3. src 폴더 원본 소스 수정
+
+
+// =============
+개발 모드 실행 (수정확인방법)
+    $ yarn start:dev
+
+
+// =============
+배포
+
+1. 빌드단계
+    $ yarn build:prod
+
+2. 배포단계
+    dist 폴더를 서버에 올린다.

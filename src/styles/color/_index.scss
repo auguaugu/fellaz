@@ -1,0 +1,9 @@
+@import 'variables';
+
+@function color($color: black, $alpha: 1) {
+  @if map-has-key($color_list, $color) {
+    @return rgba(map-get($color_list, $color), $alpha);
+  } @else {
+    @return rgba($color, $alpha);
+  }
+}

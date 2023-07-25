@@ -1,0 +1,44 @@
+:root {
+  --PCHeaderHeight: 88px;
+  --MOHeaderHeight: 60px;
+  --PCBannerHeight: 56px;
+  --MOBannerHeight: 44px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &.underline {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  text-align: left;
+}
+
+.swiper .swiper-pagination {
+  margin-bottom: 80px;
+}
+.swiper .swiper-pagination-bullet {
+  background: white;
+  opacity: 0.2;
+}
+.swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}

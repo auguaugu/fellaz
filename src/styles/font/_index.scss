@@ -1,0 +1,18 @@
+@import 'fontface';
+@import 'variables';
+
+@mixin hellix($size: 16, $weight: 500) {
+  font-family: Hellix;
+  font-weight: $weight;
+  font-size: #{$size}px;
+
+  @if map-has-key($size_list, $size) {
+    @each $key, $value in map-get($size_list, $size) {
+      #{$key}: $value;
+    }
+  } @else {
+    line-height: 1.5;
+    letter-spacing: -0.006em;
+  }
+  @content;
+}
