@@ -13,6 +13,7 @@
      */
     "allowJs": true,
     "checkJs": true,
+    "forceConsistentCasingInFileNames":false, 
     "isolatedModules": true,
     "baseUrl": "src",
     "paths": {
