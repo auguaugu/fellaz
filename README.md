@@ -1,40 +1,38 @@
-# Fellaz Web
+# create-svelte
 
-### `yarn start`
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-### `yarn build`
+## Creating a project
 
-### `yarn lang`
+If you're seeing this, you've probably already done this step. Congrats!
 
-- 구글 시트[https://docs.google.com/spreadsheets/d/1p98yf2lK9gzWZYaFeLFeavFVeYTDEb8gNt-EL1lTQ5g] 에 연결된 언어시트를 업데이트합니다.
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-<br>
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-## Branch
+## Developing
 
-### `main`
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-- 실제 배포 되어있는 브랜치입니다.
-- main 브랜치에 push 시 github action 으로 자동 배포됩니다.
+```bash
+npm run dev
 
-### `feature`
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-- 개발 브랜치입니다.
-- 페이지, 기능 단위로 나누어 작업합니다.
+## Building
 
-### `develop`
+To create a production version of your app:
 
-- 주 개발 브랜치입니다.
-- main 브랜치에 merge/pr 은 항상 develop 브랜치만 이용합니다.
+```bash
+npm run build
+```
 
-<br>
+You can preview the production build with `npm run preview`.
 
-## Deploy
-
-### 개발 사이트
-
-- http://fellaz.toy.devhand.net
-
-### 운영 사이트
-
-- https://fellaz.io
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
